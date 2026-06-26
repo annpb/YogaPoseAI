@@ -1,0 +1,99 @@
+/* ===== GENERAL PAGE ===== */
+body {
+    background-color: #f5f7fa;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Main container padding */
+.main {
+    padding: 20px;
+}
+
+/* ===== HEADINGS ===== */
+h1, h2, h3 {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+/* ===== SIDEBAR ===== */
+section[data-testid="stSidebar"] {
+    background-color: #1e272e;
+    color: white;
+}
+
+/* Sidebar text */
+section[data-testid="stSidebar"] * {
+    color: white !important;
+}
+
+/* ===== BUTTONS ===== */
+.stButton button {
+    background: linear-gradient(135deg, #6c5ce7, #00cec9);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    height: 50px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.stButton button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #5a4bdc, #00b894);
+}
+
+/* ===== METRIC BOXES ===== */
+div[data-testid="metric-container"] {
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* ===== ALERT BOXES ===== */
+.stAlert {
+    border-radius: 12px;
+}
+
+/* ===== CARDS (CUSTOM BOX) ===== */
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+/* ===== IMAGE STYLING ===== */
+img {
+    border-radius: 10px;
+}
+
+/* ===== SCROLLBAR ===== */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6c5ce7;
+    border-radius: 10px;
+}
+
+/* ===== CUSTOM TITLE CENTER ===== */
+.center-text {
+    text-align: center;
+}
+
+/* ===== GRADIENT HEADER ===== */
+.header {
+    background: linear-gradient(90deg, #6c5ce7, #00cec9);
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
